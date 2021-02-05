@@ -1,7 +1,7 @@
 About itango
 ============
 
-Home: https://github.com/tango-controls/itango
+Home: https://gitlab.com/tango-controls/itango
 
 Package license: LGPL-3.0-or-later
 
@@ -9,7 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/itango-feedstoc
 
 Summary: An interactive Tango client
 
-Development: https://github.com/tango-controls/itango
+Development: https://gitlab.com/tango-controls/itango
+
+Documentation: https://itango.readthedocs.io/
 
 ITango is a PyTango CLI based on IPython.
 It is designed to be used as an IPython profile.
