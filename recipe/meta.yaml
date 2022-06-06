@@ -23,6 +23,7 @@ requirements:
   host:
     - python >=2.7
     - pip
+    - setuptools-scm
   run:
     - python >=2.7
     - pytango >=9.2.0
