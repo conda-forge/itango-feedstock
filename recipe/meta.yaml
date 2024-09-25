@@ -1,5 +1,5 @@
 {% set name = "itango" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 51d13c51fb5205037acd959674dcfab495b8043c87ab1ae4f0b8cdf05698589b
+  sha256: cf2d9b5c2a1b7532b0fcd968e8660ca39e1589ee0d57cf995d7914440095fb15
 
 build:
   number: 0
