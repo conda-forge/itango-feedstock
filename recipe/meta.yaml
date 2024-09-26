@@ -21,13 +21,14 @@ build:
 
 requirements:
   host:
-    - python >=2.7
+    - python >=3.8
     - pip
+    - setuptools
     - setuptools-scm
   run:
-    - python >=2.7
+    - python >=3.8
     - pytango >=9.2.0
-    - ipython >=1.0
+    - ipython >=4.0
     - packaging
 
 test:
