@@ -1,5 +1,5 @@
 {% set name = "itango" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cf2d9b5c2a1b7532b0fcd968e8660ca39e1589ee0d57cf995d7914440095fb15
+  sha256: 1cacdded1ff9f1928dc1b53b8f135d43d60f20baf510c71813be589562339b7d
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - itango = itango:run
@@ -28,7 +28,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - pytango >=9.2.0
-    - ipython >=4.0
+    - ipython >=4.0,<9.0
     - packaging
 
 test:
