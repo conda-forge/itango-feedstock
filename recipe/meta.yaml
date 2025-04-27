@@ -32,13 +32,19 @@ requirements:
     - packaging
 
 test:
+  source_files:
+    - tests
   requires:
     - python {{ python_min }}
+    - pytest
+    - gevent
+    - tango-test
   imports:
     - itango
   commands:
     - itango --help
     - itango3 --help
+    - pytest -v tests
 
 about:
   home: https://gitlab.com/tango-controls/itango
