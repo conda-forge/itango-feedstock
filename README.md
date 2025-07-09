@@ -16,7 +16,6 @@ Documentation: https://itango.readthedocs.io/
 ITango is a PyTango CLI based on IPython.
 It is designed to be used as an IPython profile.
 
-
 Current build status
 ====================
 
